@@ -17,14 +17,13 @@ function init() {
   
     document.body.addEventListener("keydown", (e) => {
       let key = e.key;
-      console.log(key)
       
       if (key === codes[index]) {
         index ++;
         
         if (index === codes.length) {
           console.log('yay');
-          alert('yay');
+          alert("yay");
           index = 0;
         }
       } else {
