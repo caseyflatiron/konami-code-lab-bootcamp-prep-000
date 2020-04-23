@@ -16,7 +16,6 @@ let index = 0;
 function init() {
   
     document.body.addEventListener("keydown", (event) => {
-      console.log('keydown');
       function onKeyDownHandler(e) {
       const key = key.e;
       
