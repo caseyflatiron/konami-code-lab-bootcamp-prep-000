@@ -18,10 +18,10 @@ function init() {
     document.body.addEventListener("keydown", (event) => {
       function onKeyDownHandler(e) {
       const key = key.e;
+      console.log(key)
       
       if (key === codes[index]) {
         index ++;
-        console.log(key)
         
         if (index === codes.length) {
           console.log('yay');
